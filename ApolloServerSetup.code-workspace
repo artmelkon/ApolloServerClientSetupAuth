@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.autoSave": "afterDelay",
+		"files.autoSaveDelay": 1000,
+		"editor.tabSize": 2,
+		"editor.fontSize": 12,
+		"editor.formatOnSave": false,
+		"editor.wordWrap": "on",
+		"workbench.colorCustomizations": {
+			"tab.activeBackground": "#035224",
+			"tab.activeBorder": "#ff0000",
+		},
+		"emmet.showAbbreviationSuggestions": true,
+    "emmet.includeLanguages": {
+        "javascript":"html",
+        "jsx": "html"
+    }
+	}
+}
