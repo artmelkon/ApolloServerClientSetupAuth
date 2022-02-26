@@ -6,7 +6,7 @@ import { AuthContext } from "../context/auth-context";
 const HomePage = () => {
   const authCtx = useContext(AuthContext)
   return (
-    <Container maxWidth="sm" spacing={2}>
+    <Container maxWidth="sm" spacing={2} style={{textAlign: 'center'}}>
       <h1>This is the homepage</h1>
       {authCtx.user ? (
         <div>Welcom {authCtx.user.email}</div>
